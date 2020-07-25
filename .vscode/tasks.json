@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "godot_build",
+            "type": "shell",
+            "command": "scons",
+            "group": "build",
+            "args": [
+              "platform=x11",
+              "target=debug",
+              "-j4"
+            ],
+            "problemMatcher": "$msCompile"
+          }
+    ]
+}

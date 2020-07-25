@@ -358,3 +358,6 @@ compile_commands.json
 
 # Cppcheck
 *.cppcheck
+
+# Add VSCode debug configs
+!.vscode/
